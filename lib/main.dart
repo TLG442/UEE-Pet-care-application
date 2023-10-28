@@ -19,7 +19,7 @@ void main() async{
     LocalNotificationService.initialize();
     FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
-  runApp( MyApp());
+  runApp( MyApp());//gamindu
 }
 
 class MyApp extends StatelessWidget {
